@@ -53,7 +53,7 @@ function [val] = fnom(x)
     global LENGTH %#ok<*GVMIS>
     global AIRCRAFT_MASS
 
-    weight = AIRCRAFT_MASS * 9.81; % <--------------------------------------- NOTE: MAY NEED TO REMOVE 0.5!!!!!
+    weight = AIRCRAFT_MASS * 9.81;
 
     val = (2.5*weight)/LENGTH .* (1-x./LENGTH);
 end

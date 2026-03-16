@@ -6,6 +6,7 @@ Mass optimization of a high performance aircraft wing spar while under loading u
 
 - MATLAB
 - Optimization Toolbox (for `fmincon`)
+- Symbolic Math Toolbox (required for GaussHermite_Locations_Weights.m)
 
 ## Quick Start
 

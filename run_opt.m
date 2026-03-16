@@ -125,7 +125,7 @@ plot(x, stress_means - 6*stress_stds, ":c");
 ylabel('Stress (Pa)');
 xlabel('Spar x Position (m)');
 title(sprintf('Spar Nominal Design Stress Distribution (mass = %.2f kg)', mass))
-legend('mean force', 'mean + 6 std', 'mean - 6 std');
+legend('mean stress', 'mean + 6 std', 'mean - 6 std');
 hold off
 
 

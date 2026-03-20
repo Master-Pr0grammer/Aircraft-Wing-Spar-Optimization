@@ -13,7 +13,7 @@ function [cineq, ceq, jineq, jeq] = noncon(x)
     N_nodes = size(x, 1)/2;
     cineq = calc_constraint(x, N_QUAD_POINTS);
 
-    % Calclulate partial derivatives
+    % Calculate partial derivatives
     jineq = zeros(size(x, 1), N_nodes);
 
     h = 10e-30;

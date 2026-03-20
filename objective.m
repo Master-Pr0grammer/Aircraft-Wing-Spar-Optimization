@@ -2,7 +2,7 @@ function [mass, dm] = objective(design_vars)
 
     mass = calc_mass(design_vars);
 
-    % Calclulate partial derivatives
+    % Calculate partial derivatives
     dm = zeros(size(design_vars));
     h = 10e-30;
     for i = 1:size(design_vars, 1)

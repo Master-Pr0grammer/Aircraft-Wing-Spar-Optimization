@@ -171,7 +171,7 @@ yline(stress_converged, 'm--', 'LineWidth', 1.5, 'FontSize', 12);
 
 xlabel('N_{nodes}');
 ylabel('Stress at end of spar (Pa)');
-title('Nominal Gemoetry Mesh Convergence Study');
+title('Nominal Geometry Mesh Convergence Study');
 legend('stress mean values', 'stress std values')
 grid on; 
 box on;
@@ -206,7 +206,7 @@ yline(stress_converged, 'm--', sprintf('Converged = %.4e               ', stress
 
 xlabel('N_{quad points}');
 ylabel('Mean stress at center of spar (Pa)');
-title('Nominal Gemoetry Number of Quadrature Points Vs Mean Stress Analysis');
+title('Nominal Geometry Number of Quadrature Points Vs Mean Stress Analysis');
 grid on; 
 box on;
 hold off;
@@ -229,7 +229,7 @@ yline(stress_converged, 'm--', sprintf('Converged = %.4e               ', stress
 
 xlabel('N_{quad points}');
 ylabel('Stress std. dev. at center of spar (Pa)');
-title('Nominal Gemoetry Number of Quadrature Points Vs Stress Standard Deviation Analysis');
+title('Nominal Geometry Number of Quadrature Points Vs Stress Standard Deviation Analysis');
 grid on; 
 box on;
 hold off;
